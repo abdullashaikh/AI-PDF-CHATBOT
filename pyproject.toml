@@ -1,0 +1,18 @@
+[project]
+name = "chatbot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "langchain",
+    "langchain-openai",
+    "weaviate-client",
+    "pypdf",
+    "pdf2image",
+    "pytesseract",
+    "openai",
+    "fastapi",
+    "uvicorn",
+    "python-multipart>=0.0.20",
+]
